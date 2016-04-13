@@ -1,0 +1,14 @@
+uuid: 047a0f6c-f9ce-498e-9a60-339ca5518068
+name: BSES
+mail: bander2.imda@gmail.com
+slogan: ''
+page:
+  403: ''
+  404: ''
+  front: /node
+admin_compact_mode: false
+weight_select_max: 100
+langcode: en
+default_langcode: en
+_core:
+  default_config_hash: yXadRE77Va-G6dxhd2kPYapAvbnSvTF6hO4oXiOEynI
