@@ -1,4 +1,4 @@
-FROM debian:jessia
+FROM debian:jessie
 
 COPY sync /var/www/drupal/config/sync
 
