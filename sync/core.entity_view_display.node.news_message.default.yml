@@ -1,0 +1,33 @@
+uuid: 0672c8a4-ee0a-4ea3-9700-ce1e3b6e7cf6
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.node.news_message.body
+    - field.field.node.news_message.field_summary
+    - node.type.news_message
+  module:
+    - text
+    - user
+_core:
+  default_config_hash: 9-CBRXdUs-s6dli7xvGQx9KLMpy-6KizSnjw_qUXkn8
+id: node.news_message.default
+targetEntityType: node
+bundle: news_message
+mode: default
+content:
+  body:
+    label: hidden
+    type: text_default
+    weight: 101
+    settings: {  }
+    third_party_settings: {  }
+  field_summary:
+    weight: 102
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    type: basic_string
+  links:
+    weight: 100
+hidden: {  }

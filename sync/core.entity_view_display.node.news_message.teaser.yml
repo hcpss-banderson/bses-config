@@ -1,0 +1,28 @@
+uuid: d8650ace-00b6-422f-9987-661dbd853893
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.teaser
+    - field.field.node.news_message.body
+    - node.type.news_message
+  module:
+    - text
+    - user
+_core:
+  default_config_hash: 0OqdfoT9VeIBiFKXYiAHo-j6iI2CWJ8SWUky5Wmgtog
+id: node.news_message.teaser
+targetEntityType: node
+bundle: news_message
+mode: teaser
+content:
+  body:
+    label: hidden
+    type: text_summary_or_trimmed
+    weight: 101
+    settings:
+      trim_length: 600
+    third_party_settings: {  }
+  links:
+    weight: 100
+hidden: {  }
